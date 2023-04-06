@@ -14,7 +14,7 @@ count = 0
 dir = 20
 loop = 3
 fun.moveC(dir,sHeight,sWidth,count,loop)
-print("Hello")      
+print("Hello")# this line not working only for checking      
        
 
     
