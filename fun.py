@@ -1,3 +1,6 @@
+import pyautogui as g
+import time;
+
 # prep length variable
 def createVar(l, d):
    return l - (l % d)
@@ -9,8 +12,7 @@ def moveC(d, h, w, c):
     
 # move curser to one dir 
 def move(l, d):
-    for i in range(l-11):  
-        print("Start")      
+    for i in range(l-11):    
         cMX, cMY = g.position()
         g.moveTo(cMX + d, cMY)
     
