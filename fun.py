@@ -4,7 +4,6 @@ import time;
 # prep length variable
 def createVar(l, d):
    return (l - (l % d)) / d
-   
 
 # move cursor
 def moveC(d, h, w, c, Loop):
@@ -21,11 +20,7 @@ def moveC(d, h, w, c, Loop):
         if Loop < c :
             exit()
         print(c)
-    
-    
-    
-   
-    
+      
 # move curser to one dir 
 def move(l, d1, d2):
     l = int(l)
